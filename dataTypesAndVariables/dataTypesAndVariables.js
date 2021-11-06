@@ -17,7 +17,6 @@ const obj = {
 }
 
 const ar = [];
-// test
 
 // console.log(one);
 // console.log('It is name variale ', name);
