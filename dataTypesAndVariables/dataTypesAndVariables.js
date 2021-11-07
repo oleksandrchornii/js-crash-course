@@ -25,10 +25,10 @@ const res = one == ONE;
 const res2 = one === ONE;
 
 // console.log('Result: ', res);
-// console.log('Result with data types check: ', res2);
-console.log('first version ', varShouldBeUpdated == null);
+ console.log('Result with data types check: ', res2);
+// console.log('first version ', varShouldBeUpdated == null);
 
 varShouldBeUpdated = 101;
 
 // console.log('rewrite ',  typeof varShouldBeUpdated);
-console.info('rewrite ',  typeof varShouldBeUpdated);
+// console.info('rewrite ',  typeof varShouldBeUpdated);
