@@ -1,5 +1,5 @@
 const MATH_PI = 3.14;
-const radius = 10;
+const radius = 0;
 
 let result;
 
@@ -7,7 +7,7 @@ result = radius !== 0
     ? MATH_PI * (radius * radius)
     : "Radius can not be equal to zero";
 
-// console.log(result);
+console.log(result);
 
 const userName = "Mark";
 
@@ -23,4 +23,4 @@ const checkRadius = radius === 10 || radius < 100 ? 'Ok' : 'Not Ok';
 
 // console.log(checkRadius);
 
- console.log('logical operator ', !radius)
+//  console.log('logical operator ', !radius)

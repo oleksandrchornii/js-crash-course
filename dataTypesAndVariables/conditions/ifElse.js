@@ -5,12 +5,14 @@ if (r > 0) {
     res = r * r * 3.14;
 }
 
-const product = 'Milk';
+console.log(res);
+
+const product = 'Potato';
 
 if (product === 'Milk') {
-    console.log('It is Milk :) ');
+    // console.log('It is Milk :) ');
 } else {
-    console.log('It is not a Milk :) ');
+    // console.log('It is not a Milk :) ');
 }
 
 const day = 2;
@@ -24,4 +26,4 @@ if (day === 1) {
     weekDay = 'Wrong day number provided';
 }
 
-console.log()
+// console.log()
