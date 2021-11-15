@@ -4,13 +4,13 @@ let weekDay = '';
 switch (day) {
     case 1: {
         weekDay = 'Monday';
-        return;
+        // return;
         console.log("I am console"); // will not be triggered
     }
 
     case 2: {
         weekDay = 'Tuesday';
-        console.log('Tuesday');
+        // console.log('Tuesday');
     }
     break;
     
@@ -24,4 +24,4 @@ switch (day) {
     }
 }
 
-console.log('Week day: ', weekDay);
+// console.log('Week day: ', weekDay);

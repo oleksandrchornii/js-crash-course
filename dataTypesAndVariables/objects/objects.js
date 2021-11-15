@@ -47,4 +47,6 @@ ExplodingKittens.yearCreation = 2015;
 ExplodingKittens.timePlay = '15 - 30 min.';
 ExplodingKittens.age = '7+';
 
-console.log(ExplodingKittens);
+// console.log(ExplodingKittens);
+
+
