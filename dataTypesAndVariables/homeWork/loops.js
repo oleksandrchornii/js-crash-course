@@ -13,12 +13,3 @@
 //    }
 // }
 
-
-    let n = 0;
-    let sum = 0;
-    while (n < 8){
-        console.log(n);
-    sum += n;
-    n++;
-    }
-console.log({n, sum});
