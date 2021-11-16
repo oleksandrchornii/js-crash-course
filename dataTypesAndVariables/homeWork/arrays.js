@@ -4,6 +4,14 @@
 //   sum = sum + arrayNums1[i];
 // }
 
-const data = ['Games', {tests: 'e2e',}]
-const [moduleName, extra] = data;
-console.log(data);
+// const data = ['Games', {tests: 'e2e',}]
+// const [moduleName, extra] = data;
+// console.log(data);
+
+function swap (arr, i, j) {
+ [arr[i], arr[j]] = [arr[j], arr[i]];
+ }
+const unsortedNums = [1, 3, 2];
+ swap(unsortedNums, 1, 2);
+ console.log(unsortedNums);
+
